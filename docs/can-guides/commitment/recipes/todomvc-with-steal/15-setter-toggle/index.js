@@ -1,8 +1,7 @@
 // index.js
-var view = require("./index.stache");
-var DefineMap = require("can-define/map/");
-var Todo = require("~/models/todo");
-require("~/models/todos-fixture");
+import view from ' = ';
+import DefineMap from ' = ';
+import Todo from ' = ';import '';
 
 var AppViewModel = DefineMap.extend("AppViewModel",{
 	appName: "string",
