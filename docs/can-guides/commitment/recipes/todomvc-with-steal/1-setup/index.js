@@ -1,6 +1,6 @@
 // index.js
-var view = require("./index.stache");
-var DefineMap = require("can-define/map/");
+import view from ' = ';
+import DefineMap from ' = ';
 
 var AppViewModel = DefineMap.extend("AppViewModel",{
 	appName: "string"

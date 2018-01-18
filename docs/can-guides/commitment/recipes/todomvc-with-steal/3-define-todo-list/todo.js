@@ -1,6 +1,6 @@
 // models/todo.js
-var DefineMap = require("can-define/map/");
-var DefineList = require("can-define/list/");
+import DefineMap from ' = ';
+import DefineList from ' = ';
 
 var Todo = DefineMap.extend("Todo", {
 	id: "string",
@@ -31,4 +31,4 @@ Todo.List = DefineList.extend("TodoList", {
 	}
 });
 
-module.exports = Todo;
+export default Todo;
